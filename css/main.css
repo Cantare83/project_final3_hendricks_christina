@@ -5,6 +5,7 @@ body {
 #wrapper {
     background-color: #f3f1e9;
     max-width: 980px;
+    margin: auto;
 }
 
 .logo {
@@ -22,4 +23,20 @@ p,
 li,
 button {
     font-family: 'Merriweather', serif;
+}
+
+header,
+footer,
+.banner {
+    color: #f3f1e9;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+.rightFooter img,
+.rightHeader img {
+    width: 5%;
 }
