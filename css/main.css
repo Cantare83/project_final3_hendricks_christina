@@ -25,15 +25,25 @@ button {
     font-family: 'Merriweather', serif;
 }
 
+.banner {
+    /*position: relative;*/
+    background-image: url("img/hp_banner.jpg");
+    /*background-size: cover;*/
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 455px;
+    display: block;
+}
+
+.bannerCTA article {
+    box-sizing: border-box;
+    position: absolute;
+}
+
 header,
 footer,
 .banner {
     color: #f3f1e9;
-}
-
-.banner {
-    width: 100%;
-    height: auto;
 }
 
 .rightFooter img,
