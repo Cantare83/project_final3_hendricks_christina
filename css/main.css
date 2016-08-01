@@ -69,13 +69,13 @@ button {
     display: block;
 }
 
-.bannerCTA article {
-    box-sizing: border-box;
-    position: absolute;
+.bannerCTA h1 {
+    padding: 3em 1.5em 0 1.5em;
 }
 
 article {
     text-align: center;
+    padding: 1em;
 }
 
 .bestInn
