@@ -124,3 +124,13 @@ footer,
 .rightHeader img {
     width: 10%;
 }
+
+/* Styling for Menu Page */
+
+.menuBanner {
+    background-image: url("../img/menuBanner.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 350px;
+    display: block;
+}
