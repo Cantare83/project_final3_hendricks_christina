@@ -29,7 +29,7 @@ h1 {
     margin-top: 0;
 }
 
-nav
+/*nav
 ul
 li {
     list-style: none;
@@ -51,8 +51,36 @@ a {
     font-size: 1em;
     padding: 1em;
     font-family: 'Cinzel Decorative', cursive;
-    border: 1px solid #3e3231;
-    border-radius: 8px;
+    border-top: 1px solid #3e3231;
+    background-color: #f3f1e9;
+    width: 100%;
+}*/
+
+#menu {
+    margin: 0 auto;
+    padding: 0;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 20px 0 0 0;
+    list-style: none;
+}
+
+#menu a {
+    display: block;
+    line-height: 70px;
+    margin-right: 1px;
+    padding: 0 20px 0 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 1.5em;
+    color: #c68a22;
+}
+
+#menu a:hover,
+#menu .currentPage a {
     background-color: #f3f1e9;
 }
 
