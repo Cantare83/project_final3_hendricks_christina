@@ -77,12 +77,29 @@ h1 {
     .rightHeader {
         clear: both;
     }
+
+    .bestInn
+    img {
+        float: left;
+    }
+
+    .upcomingEvents {
+        clear: both;
+    }
 }
 
 @media (min-width: 960px) {
     nav li {
         display: inline-block;
         width: calc(100% / 4.5);
+    }
+
+    .events {
+        float: left;
+    }
+
+    footer {
+        clear: both;
     }
 }
 
@@ -122,6 +139,7 @@ article {
 .bestInn
 img {
     width: 40%;
+    max-width: 150px;
 }
 
 button {
@@ -140,6 +158,7 @@ a {
 .upcomingEvents
 img {
     width: 80%;
+    max-width: 350px;
 }
 
 .upcomingEvents
