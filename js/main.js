@@ -8,7 +8,7 @@ $(document).ready(function () {
         }
     });
 
-    $('body').backstretch('img/woodbg.jpg');
+    $('body').backstretch('img/woodbg3.jpg');
 
     $('input').combodate({
         minYear: 2016,
