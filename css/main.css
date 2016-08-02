@@ -22,6 +22,12 @@ body {
     width: 25%;
 }
 
+.leftHeader
+h1 {
+    margin-top: 0;
+}
+
+nav
 ul
 li {
     list-style: none;
@@ -30,6 +36,7 @@ li {
     padding: 0.5em;
 }
 
+nav
 li
 a {
     color: #c68a22;
@@ -60,9 +67,7 @@ button {
 }
 
 .banner {
-    /*position: relative;*/
     background-image: url("../img/hp_banner.jpg");
-    /*background-size: cover;*/
     background-repeat: no-repeat;
     width: 100%;
     min-height: 350px;
@@ -83,9 +88,27 @@ img {
     width: 40%;
 }
 
+button {
+    background-color: #c68a22;
+    padding: 0.5em;
+    color: #f3f1e9;
+    border-radius: 8px;
+}
+
 .upcomingEvents
 img {
     width: 80%;
+}
+
+.upcomingEvents
+h3 {
+    margin-top: 0.2em;
+    margin-bottom: 0;
+}
+
+.upcomingEvents
+li {
+    margin-bottom: 0.5em;
 }
 
 header,
