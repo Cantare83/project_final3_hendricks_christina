@@ -123,7 +123,8 @@ li {
     margin-bottom: 0.5em;
 }
 
-header,
+.leftHeader,
+.rightHeader,
 footer,
 .banner {
     color: #f3f1e9;
