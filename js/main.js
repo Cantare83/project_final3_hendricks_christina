@@ -1,3 +1,5 @@
+// Custom jQuery adds interactivity to the menu images
+
 $(document).ready(function () {
     $('.menuItem').click(function () {
         if ($(this).attr('class') === 'minImg') {
@@ -8,7 +10,11 @@ $(document).ready(function () {
         }
     });
 
+    // backstretch jQuery plugin for the background image
+
     $('body').backstretch('img/woodbg3.jpg');
+
+    // time and date picker for the reservations page
 
     $('input').combodate({
         minYear: 2016,
@@ -17,6 +23,8 @@ $(document).ready(function () {
     });
 
 });
+
+// JavaScript to add content to the contact page when the image is clicked
 
 var map = document.getElementById('location');
 
