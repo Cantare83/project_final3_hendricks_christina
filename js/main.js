@@ -10,6 +10,12 @@ $(document).ready(function () {
 
     $('body').backstretch('img/woodbg.jpg');
 
+    $('input').combodate({
+        minYear: 2016,
+        maxYear: 2020,
+        minuteStep: 5
+    });
+
 });
 
 var map = document.getElementById('location');

@@ -289,3 +289,7 @@ h1 {
 #location {
     width: 100%;
 }
+
+#location:hover {
+    cursor: pointer;
+}
