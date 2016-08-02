@@ -33,9 +33,14 @@ nav
 ul
 li {
     list-style: none;
-    margin: 1em;
     display: inline-block;
     padding: 0.5em;
+}
+
+nav
+ul {
+    padding-left: 23%;
+    padding-right: 23%;
 }
 
 nav
@@ -133,4 +138,39 @@ footer,
     width: 100%;
     min-height: 350px;
     display: block;
+    color: #f3f1e9;
+}
+
+.menuBannerCTA
+h1 {
+    padding: 3em 1.5em 0 1.5em;
+}
+
+.apps {
+    background-image: url("../img/apps.jpg");
+}
+
+.drinks {
+    background-image: url("../img/drinks.jpg");
+}
+
+.entrees {
+    background-image: url("../img/entrees.jpg");
+}
+
+.desserts {
+    background-image: url("../img/desserts.jpg");
+}
+
+.apps,
+.drinks,
+.entrees,
+.desserts {
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
