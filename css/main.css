@@ -202,20 +202,36 @@ h1 {
     padding: 3em 1.5em 0 1.5em;
 }
 
-.apps {
+#apps {
     background-image: url("../img/apps.jpg");
 }
 
-.drinks {
+#apps:hover {
+    cursor: pointer;
+}
+
+#drinks {
     background-image: url("../img/drinks.jpg");
 }
 
-.entrees {
+#drinks:hover {
+    cursor: pointer;
+}
+
+#entrees {
     background-image: url("../img/entrees.jpg");
 }
 
-.desserts {
+#entrees:hover {
+    cursor: pointer;
+}
+
+#desserts {
     background-image: url("../img/desserts.jpg");
+}
+
+#desserts:hover {
+    cursor: pointer;
 }
 
 .minImg {
