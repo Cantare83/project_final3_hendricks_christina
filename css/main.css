@@ -145,13 +145,24 @@ button {
     background-color: #c68a22;
     padding: 0.5em;
     border-radius: 8px;
-}
-
-button,
-a {
     color: #f3f1e9;
     text-decoration: none;
     font-family: 'Merriweather', serif;
+    display: block;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.reserve {
+    background-color: #c68a22;
+    padding: 0.5em;
+    border-radius: 8px;
+    color: #f3f1e9;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    width: 40%;
 }
 
 .upcomingEvents
