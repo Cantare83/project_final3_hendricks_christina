@@ -1,8 +1,8 @@
 
 #Final Project
-[GitHub Link]()
+[GitHub Link](https://github.com/Cantare83/project_final3_hendricks_christina)
 
-[Project Link]()
+[Project Link](http://www.chrisihendricks.net/project_final3_hendricks_christina/index.html)
 
 ##Resources
 * [Google Fonts](https://fonts.google.com/?selection.family=Cinzel+Decorative|Merriweather&query=cinzel) I linked to google fonts for both fonts in my project.
